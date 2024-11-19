@@ -29,7 +29,7 @@ ownCloudTheme::ownCloudTheme()
 
 QColor ownCloudTheme::wizardHeaderBackgroundColor() const
 {
-    return QColor(4, 30, 66);
+    return QColor(227, 1, 15);
 }
 
 QColor ownCloudTheme::wizardHeaderTitleColor() const
@@ -49,7 +49,7 @@ QIcon ownCloudTheme::aboutIcon() const
 
 QmlButtonColor ownCloudTheme::primaryButtonColor() const
 {
-    const QColor button("#709cd2");
+    const QColor button("#E3010F");
     return {button, Qt::white, button.darker()};
 }
 

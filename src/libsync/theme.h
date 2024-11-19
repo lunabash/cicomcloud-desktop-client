@@ -198,7 +198,7 @@ public:
     /** Same as overrideServerUrl allows override by
      *  setting $OWNCLOUD_OVERRIDE_SERVER_URL
      */
-    QString overrideServerUrlV2("https://cloud.cicom.co.za/") const;
+    QString overrideServerUrlV2() const;
 
     /**
      * If set to a non-empty string, the path part of the URL will be overwritten with this path.
@@ -214,7 +214,7 @@ public:
     /**
      * The default folder name without path on the server at setup time.
      */
-    virtual QString defaultServerFolder("CicomCloud") const;
+    virtual QString defaultServerFolder() const;
 
 
     /** @return color for the setup wizard */
